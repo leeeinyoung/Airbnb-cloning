@@ -27,7 +27,7 @@
   padding-right: 400px;
 }
 .text {
-  width: 1140px;
+  width: 640px;
   height: 50px;
   display: flex;
   text-align: center;
@@ -63,7 +63,7 @@ p.nothing {
   height: 50px;
 }
 .icon {
-  width: 500px;
+  width: 100px;
   height: 50px;
   display: flex;
 }
@@ -71,6 +71,90 @@ p.nothing {
   padding: 10px;
   width: 30px;
   height: 30px;
+}
+.smallbox {
+  display: flex;
+  width: 100px;
+  height: 45px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+#leftend {
+  width: 100px;
+  height: 50px;
+}
+
+#person {
+  padding: 10px;
+  padding-left: 5px;
+  width: 25px;
+  height: 25px;
+}
+#bars {
+  padding: 10px;
+  width: 25px;
+  padding-right: 5px;
+  height: 25px;
+}
+
+.input {
+  height: 80px;
+  width: 1440px;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#bigbox {
+  height: 60px;
+  width: 800px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.question {
+  height: 45px;
+  text-align: left;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+}
+
+.top {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+.bottom {
+  font-size: 12px;
+  font-weight: 400;
+  color: #535151;
+}
+#location {
+  padding-left: 30px;
+  padding-right: 150px;
+  border-right: 1px solid #e0e0e0;
+}
+#checkin {
+  padding-left: 20px;
+  padding-right: 80px;
+  border-right: 1px solid #e0e0e0;
+}
+#checkout {
+  padding-left: 20px;
+  padding-right: 80px;
+  border-right: 1px solid #e0e0e0;
+}
+#guest {
+  padding-left: 20px;
+  padding-right: 65px;
+}
+#search {
+  height: 45px;
+  width: 45px;
 }
 /* 인영 */
 
