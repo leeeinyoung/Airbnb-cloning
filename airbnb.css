@@ -1,5 +1,302 @@
 /* 진욱 */
 
 /* 인영 */
+#all-content {
+    margin: 0 auto !important;
+    overflow: hidden;
+}
+
+#background {
+    background-color: #000000;
+    padding: 222px 0px 64px;
+}
+
+#background_2 {
+    position: relative;
+}
+
+#background_2-box {
+    background-color: #000000;
+    position: relative;
+    height: 232px;
+    margin: 0 0 296px 0;
+}
+
+#search-place-overlay {
+  position: relative;
+  background-clip: border-box;
+  border-radius: 12px;
+  height: 532px;
+  padding: 0 40px 60px;
+  overflow: hidden;
+}
+
+.emergency-banner {
+  display: flex;
+  width: 906px;
+  height: 200px;
+  background-color: #ff385c;
+  border-radius: 10px;
+  justify-content: center;
+  min-width: 0px !important;
+  margin: 0 auto;
+}
+
+.emergency-banner h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  line-height: 30px;
+  text-align: center;
+  padding: 40px 40px 15px 40px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.learn-more {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.search-place {
+  display: flex;
+  justify-content: center;
+  background-image: url(./img/place_example.jpg);
+  background-size: contain;
+  width: 826px;
+  height: 400px;
+  border-radius: 12px;
+  margin: 0;
+  padding: 0 40px 64px;
+}
+
+.search-place p {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 280px;
+  padding-bottom: 24px;
+}
+
+.search {
+  font-weight: 600;
+  color: purple;
+  background-color: white;
+  border-radius: 24px;
+  padding: 12px 24px;
+  border-color: transparent;
+}
+
+.headings {
+  padding-bottom: 16px;
+  margin: 64px 0px 0px 40px;
+}
+
+h1 {
+  font-family: helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.places {
+  height: 320px;
+  overflow-y: scroll;
+  white-space: nowrap;
+  margin: 0 0 0 40px;
+  scrollbar-width: none;
+}
+
+.places::-webkit-scrollbar {
+    display: none;
+}
+
+.places-cards {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.place-name {
+  padding-bottom: 8px;
+}
+
+.place-title {
+  font-family: helvetica;
+  font-size: 24px;
+  color: white;
+}
+
+.place-exp {
+  font-family: helvetica;
+  font-size: 16px;
+  color: white;
+}
+
+.seoul-image {
+  width: 240px;
+  height: 160px;
+  border-radius: 12px 12px 0 0;
+  background-image: url(./img/seoul.png);
+  background-size: contain;
+}
+
+.seoul-bottom {
+  background: #bc1a6e;
+  width: 208px;
+  height: 124px;
+  border-radius: 0 0 12px 12px;
+  padding: 20px 16px 16px;
+}
+
+.incheon-image {
+  width: 240px;
+  height: 160px;
+  border-radius: 12px 12px 0 0;
+  background-image: url(./img/incheon.png);
+  background-size: contain;
+}
+
+.incheon-bottom {
+  background: #cc2d4a;
+  width: 208px;
+  height: 124px;
+  border-radius: 0 0 12px 12px;
+  padding: 20px 16px 16px;
+}
+
+.daegu-image {
+  width: 240px;
+  height: 160px;
+  border-radius: 12px 12px 0 0;
+  background-image: url(./img/daegu.png);
+  background-size: contain;
+}
+
+.daegu-bottom {
+  background: #d93b30;
+  width: 208px;
+  height: 124px;
+  border-radius: 0 0 12px 12px;
+  padding: 20px 16px 16px;
+}
+
+.daejeon-image {
+  width: 240px;
+  height: 160px;
+  border-radius: 12px 12px 0 0;
+  background-image: url(./img/daejeon.png);
+  background-size: contain;
+}
+
+.daejeon-bottom {
+  background: #de3151;
+  width: 208px;
+  height: 124px;
+  border-radius: 0 0 12px 12px;
+  padding: 20px 16px 16px;
+}
+
+.experiences {
+  white-space: nowrap;
+  margin: 0 0 64px 40px;
+}
+
+.experiences-cards {
+  width: 446px;
+  height: 556px;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 0 16px 0 0;
+}
+
+.experiences-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  background-clip: border-box;
+  position: relative;
+  border-radius: 12px;
+  height: 532px;
+  padding: 24px 24px 0 24px;
+  overflow: hidden;
+}
+
+.experiences-content {
+  padding: 24px !important;
+}
+
+#traveling {
+  background-image: url(./img/traveling.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#athome {
+  background-image: url(./img/athome.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+h3 {
+  font-family: helvetica;
+  font-size: 34px;
+  font-weight: 540;
+  color: white;
+  line-height: 38px;
+  margin-bottom: 24px;
+}
+
+.see-more {
+  background-color: white;
+  border-radius: 12px;
+  border-color: transparent;
+  padding: 14px 24px;
+  color: #222222;
+  font-size: 16px;
+}
+
+.ask-host {
+    background-image: url(./img/host.jpg);
+    width: 100%;
+    height: 460px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 40px;
+    font-size: 50px;
+    font-family: helvetica;
+    color: white;
+    font-weight: 560;
+    line-height: 56px;
+}
+
+.ask-host-title {
+    margin-bottom: 240px;
+}
+
+.btn-ask-host {
+    color: #222222;
+    padding: 14px 24px;
+    border-radius: 12px;
+    border-color: transparent;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#ask-host-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+    overflow: hidden;
+}
 
 /* 영현 */
