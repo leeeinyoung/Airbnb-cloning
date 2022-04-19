@@ -67,9 +67,9 @@ p.host {
 }
 
 .icon {
-  width: auto;
+  width: 275px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 #globe {
   padding: 10px;
@@ -78,6 +78,7 @@ p.host {
 }
 .smallbox {
   display: flex;
+  justify-content: space-around;
   width: 85px;
   height: 45px;
   background-color: #ffffff;
