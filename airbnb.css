@@ -2,7 +2,7 @@
 
 .corona {
   background-color: #000000;
-  width: 1440px;
+  position: relative;
   height: 18px;
   text-align: center;
   padding: 16px 0;
@@ -13,22 +13,23 @@
   text-decoration: underline;
 }
 .center {
-  width:1280px;
+  position: relative;
   background-color: #000000;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
-  padding: 0 80px;
+  padding: 0 40px;
   display: flex;
+  justify-content: space-around;
 }
 
 #ablogo {
-  width: 118px;
+  width: 200px;
   height: 50px;
-  padding-right: 400px;
+  padding-right: 300px;
 }
 .text {
-  width: 640px;
+  width: 475px;
   height: 50px;
   display: flex;
   text-align: center;
@@ -56,17 +57,19 @@ p.cthree {
 p.host {
   padding: 18px 0;
 
-  width: 110px;
+  width: 80px;
   height: 14px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: 600;
 }
-p.nothing {
-  width: 200px;
-  height: 50px;
-}
+
 .icon {
-  width: 100px;
-  height: 50px;
+  width: auto;
   display: flex;
+  justify-content: center;
 }
 #globe {
   padding: 10px;
@@ -75,15 +78,10 @@ p.nothing {
 }
 .smallbox {
   display: flex;
-  width: 100px;
+  width: 85px;
   height: 45px;
   background-color: #ffffff;
   border-radius: 30px;
-}
-
-#leftend {
-  width: 100px;
-  height: 50px;
 }
 
 #person {
@@ -100,8 +98,8 @@ p.nothing {
 }
 
 .input {
+  position: relative;
   height: 80px;
-  width: 1440px;
   background-color: #000000;
   justify-content: center;
   align-items: center;
@@ -159,24 +157,24 @@ p.nothing {
 }
 /* 인영 */
 #all-content {
-    margin: 0 auto !important;
-    overflow: hidden;
+  margin: 0 auto !important;
+  overflow: hidden;
 }
 
 #background {
-    background-color: #000000;
-    padding: 222px 0px 64px;
+  background-color: #000000;
+  padding: 222px 0px 64px;
 }
 
 #background_2 {
-    position: relative;
+  position: relative;
 }
 
 #background_2-box {
-    background-color: #000000;
-    position: relative;
-    height: 232px;
-    margin: 0 0 296px 0;
+  background-color: #000000;
+  position: relative;
+  height: 232px;
+  margin: 0 0 296px 0;
 }
 
 #search-place-overlay {
@@ -274,7 +272,7 @@ h1 {
 }
 
 .places::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .places-cards {
@@ -422,38 +420,38 @@ h3 {
 }
 
 .ask-host {
-    background-image: url(./img/host.jpg);
-    width: 100%;
-    height: 460px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 40px;
-    font-size: 50px;
-    font-family: helvetica;
-    color: white;
-    font-weight: 560;
-    line-height: 56px;
+  background-image: url(./img/host.jpg);
+  width: 100%;
+  height: 460px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 40px;
+  font-size: 50px;
+  font-family: helvetica;
+  color: white;
+  font-weight: 560;
+  line-height: 56px;
 }
 
 .ask-host-title {
-    margin-bottom: 240px;
+  margin-bottom: 240px;
 }
 
 .btn-ask-host {
-    color: #222222;
-    padding: 14px 24px;
-    border-radius: 12px;
-    border-color: transparent;
-    background-color: white;
-    font-size: 16px;
-    font-weight: 400;
+  color: #222222;
+  padding: 14px 24px;
+  border-radius: 12px;
+  border-color: transparent;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 #ask-host-overlay {
-    background: rgba(0, 0, 0, 0.8);
-    position: relative;
-    overflow: hidden;
+  background: rgba(0, 0, 0, 0.8);
+  position: relative;
+  overflow: hidden;
 }
 
 /* 영현 */
