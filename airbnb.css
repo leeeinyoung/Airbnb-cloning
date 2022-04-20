@@ -185,6 +185,8 @@ p.host {
   height: 532px;
   padding: 0 40px 60px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .emergency-banner {
